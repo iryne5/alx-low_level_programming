@@ -1,1 +1,3 @@
-This is a repository on C programming
+#c - debugging
+
+ALX tasks to teach debugging code in c
