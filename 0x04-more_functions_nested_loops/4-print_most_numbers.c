@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_more_numbers - print numbers between 0 - 9
+ * print_more_numbers - print numbers between 0 to 9
  * (neither 2 nor 4).
  * Return: no return.
  */
