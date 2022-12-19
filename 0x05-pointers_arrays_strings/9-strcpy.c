@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * strcpy - prints contents of an array of integers
+ * _strcpy - Prints contents of an array of integers
  * @dest: This is destiny
  * @src: This is the copia
  * Return: This return copy
  */
-char _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	char *start = dest;
 
