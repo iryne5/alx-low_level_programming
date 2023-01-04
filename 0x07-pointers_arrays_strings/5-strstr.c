@@ -10,6 +10,10 @@
 char *_strstr(char *haystack, char *needle)
 {
 	char *str1, *str2; /*Declaring variables*/
+	int index;
+
+	if (*needle == 0)
+		return (haystack);
 
 	while (*haystack != '\0')
 	{
