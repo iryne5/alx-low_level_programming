@@ -1,5 +1,5 @@
 /*
- * File - 1-print_rev_recursion.c
+ * File: 1-print_rev_recursion.c
  * Auth: iryne5
  */
 
@@ -7,13 +7,13 @@
 
 /*
  * _print_rev_recursion - prints a string in reverse.
- * @s: THe string to be printed.
+ * @s: The string to be printed.
  */
 void _print_rev_recursion(char *s)
 {
 	if (*s)
 	{
-		_print_rev_recursions(s + 1);
+		_print_rev_recursion(s + 1);
 		_putchar(*s);
 	}
 }
