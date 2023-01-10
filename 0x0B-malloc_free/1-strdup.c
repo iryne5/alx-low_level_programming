@@ -40,7 +40,7 @@ return (dest);
 }
 
 /**
- * strdup - array for prints a string
+ * _strdup - array for prints a string
  * @str: array of elements
  * Return: pointer
  */
