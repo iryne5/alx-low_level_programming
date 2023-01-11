@@ -47,7 +47,7 @@ int count_words(char *str)
 
 	for (index = 0; index < len; index++)
 	{
-		if(*(str + index) != ' ')
+		if (*(str + index) != ' ')
 		{
 			words++;
 			index += word_len(str + index);
@@ -64,7 +64,7 @@ int count_words(char *str)
  * @str: The string to be split.
  *
  * Return: If str = NULL, str = "", or the function fails - NULL.
- * 	Otherwise - a pointer to an array of strings (words).
+ * Otherwise - a pointer to an array of strings (words).
  */
 
 char **strtow(char *str)
@@ -85,7 +85,7 @@ char **strtow(char *str)
 
 	for (w = 0; w < words; w++)
 	{
-		while(str[index] == ' ')
+		while (str[index] == ' ')
 			index++;
 
 		letters = word_len(str + index);
