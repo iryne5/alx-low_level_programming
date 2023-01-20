@@ -20,8 +20,8 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	arg1 = atoi (argv[1]);
-	arg2 = atoi (argv[3]);
+	arg1 = atoi(argv[1]);
+	arg2 = atoi(argv[3]);
 
 	func - get_op_func(argv[2]);
 
@@ -32,7 +32,6 @@ int main(int argc, char *argv[])
 	}
 
 	result = func(arg1, arg2);
-	
 	printf("%d\n", result);
 
 	return (0);
